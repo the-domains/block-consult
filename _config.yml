@@ -1,29 +1,26 @@
-name: Block Consult
-favicon: null
-layout_spectrum: 0.6469534
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 typography_spectrum: 0.9193549
-title: Block Consult
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
 color:
+  saturation: 0.2365299
+  brandStrength: 0.9784946
+  rhythmicContrast: 0.2556033
   brandColors:
     - '#181516'
     - '#D9DEDE'
     - '#6E8839'
     - '#A32027'
     - '#D89B77'
-  brandStrength: 0.9784946
   lightness: 0.4229375
-  saturation: 0.2365299
-  rhythmicContrast: 0.2556033
-purpose: []
+layout_spectrum: 1
+name: Block Consult
